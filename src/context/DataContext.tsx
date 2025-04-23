@@ -101,7 +101,7 @@ const defaultData: PortfolioData = {
     {
       id: '2',
       institution: 'SSVM',
-      degree: 'PCM with Computer Science',
+      degree: 'isdkfhjcjhxchj',
       date: 'May 2022',
       gpa: '86%'
     }
