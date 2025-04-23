@@ -40,6 +40,7 @@ const Footer: React.FC<FooterProps> = ({ links, name }) => {
                 {getIcon(link.name)}
               </a>
             ))}
+            
           </div>
           
           <p className="text-center text-gray-400 text-sm">

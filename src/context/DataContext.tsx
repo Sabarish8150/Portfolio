@@ -14,7 +14,7 @@ export type Skill = {
   id: string;
   category: string;
   name: string;
-  level?: 'Beginner' | 'Novice' | 'Intermediate' | 'Advanced' | 'Expert';
+  level: 'Beginner' | 'Novice' | 'Intermediate' | 'Advanced' | 'Expert';
 };
 
 export type Project = {
@@ -125,10 +125,10 @@ const defaultData: PortfolioData = {
     { id: '16', category: 'Technologies', name: 'Full Stack Development', level: 'Intermediate' },
     { id: '17', category: 'Technologies', name: 'Web Development', level: 'Intermediate' },
     { id: '18', category: 'Technologies', name: 'Database Management', level: 'Novice' },
-    { id: '19', category: 'Others', name: 'Problem Solving'},
-    { id: '20', category: 'Others', name: 'Leadership' },
-    { id: '21', category: 'Others', name: 'Time Management'  },
-    { id: '22', category: 'Others', name: 'Team Work' }
+    { id: '19', category: 'Others', name: 'Problem Solving', level: 'Intermediate' },
+    { id: '20', category: 'Others', name: 'Leadership', level: 'Intermediate' },
+    { id: '21', category: 'Others', name: 'Time Management', level: 'Intermediate' },
+    { id: '22', category: 'Others', name: 'Team Work', level: 'Intermediate' }
   ],
   projects: [
     {
