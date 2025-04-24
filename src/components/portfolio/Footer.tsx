@@ -1,6 +1,8 @@
 import React from 'react';
-import { Github, Linkedin, Code2 } from 'lucide-react';
+import { Github, Linkedin, Code2, Settings } from 'lucide-react';
+import { Link as RouterLink } from 'react-router-dom';
 import { Link } from '../../context/DataContext';
+import { useAuth } from '../../context/AuthContext';
 
 type FooterProps = {
   links: Link[];
@@ -8,6 +10,8 @@ type FooterProps = {
 };
 
 const Footer: React.FC<FooterProps> = ({ links, name }) => {
+  const { isAuthenticated } = useAuth();
+  
   // Get the appropriate icon for each social link
   const getIcon = (name: string) => {
     const iconProps = { size: 18 };
@@ -40,7 +44,15 @@ const Footer: React.FC<FooterProps> = ({ links, name }) => {
                 {getIcon(link.name)}
               </a>
             ))}
-            
+            {!isAuthenticated && (
+              <RouterLink
+                to="/login"
+                className="text-gray-400 hover:text-white transition-colors"
+                aria-label="Admin Login"
+              >
+                <Settings size={18} />
+              </RouterLink>
+            )}
           </div>
           
           <p className="text-center text-gray-400 text-sm">
