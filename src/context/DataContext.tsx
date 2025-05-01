@@ -207,7 +207,7 @@ const defaultData: PortfolioData = {
     }
   ],
   links: [
-    { id: '1', name: 'Github', url: 'https://github.com/Sabarish' },
+    { id: '1', name: 'Github', url: 'https://github.com/Sabarish8150' },
     { id: '2', name: 'LinkedIn', url: 'https://linkedin.com/in/Sabarish-k-s' },
     { id: '3', name: 'Leetcode', url: 'https://leetcode.com/sabarishsubramanian' },
     { id: '4', name: 'Admin', url: '/admin' },
