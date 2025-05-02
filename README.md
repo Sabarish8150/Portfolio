@@ -70,9 +70,8 @@ This portfolio highlights my:
 
 ## 📬 Contact Me
 
-- **📧 Email:** [Your Email Address]  
-- **🔗 LinkedIn:** [Your LinkedIn Profile]  
-- **💻 GitHub:** [Your GitHub Profile]  
+- **📧 Email:** sabarish.ad22@bitsathy.ac.in 
+- **🔗 LinkedIn:** www.linkedin.com/sabarish-k-s
 - **📍 Location:** Coimbatore, Tamil Nadu, India
 
 ---
